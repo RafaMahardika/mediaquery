@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* mobile */
+@media only screen and (min-width:480px){
+    body {
+        background-color:cornsilk;
+    }
+    h1 {
+        font-size: xx-small;
+    }
+    
+}
+
+/* tablet */
+@media only screen and (min-width:768px){
+    body {
+        background-color:cornflowerblue;
+    }
+}
+
+/* laptop / pc */
+@media only screen and (min-width:1024px){
+    body {
+        background-color: hotpink;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+}
